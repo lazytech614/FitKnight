@@ -80,19 +80,6 @@ export default function SignupPage() {
               />
             </div>
 
-            {/* Confirm Password */}
-            <div>
-              <label className="block text-sm font-medium text-gray-700">Confirm Password</label>
-              <Input
-                type="password"
-                value={confirmPassword}
-                onChange={(e) => setConfirmPassword(e.target.value)}
-                required
-                placeholder="Confirm your password"
-                className="w-full mt-1 p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-300"
-              />
-            </div>
-
             {/* Profile Picture Upload */}
             <div>
               <label className="block text-sm font-medium text-gray-700">Profile Picture</label>
